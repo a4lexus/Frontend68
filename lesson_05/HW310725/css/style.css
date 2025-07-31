@@ -1,0 +1,15 @@
+p{
+    color: rgb(11, 212, 48);
+    font-size: 20px;
+}
+
+a{
+    color: red;
+    text-transform: lowercase;
+}
+
+h2{
+    color:blue;
+    font-style: italic;
+}
+
