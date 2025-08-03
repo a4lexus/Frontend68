@@ -1,0 +1,24 @@
+div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:500;
+    font-size: 20px;
+
+}
+.em-block{
+    
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(235, 225, 226);
+    font-weight: normal;
+    font-size: 20px;
+
+}
+.statement{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    
+}
+.teaser{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    
+}
