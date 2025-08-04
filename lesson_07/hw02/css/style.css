@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(209, 228, 244);
+}
+h1{
+    text-align: left;
+    text-transform: uppercase;
+    
+}
+main h1, main h2 {
+    color: rgb(4, 4, 154);
+}
+main h2{
+    text-align: center;
+    text-decoration: 3px dashed underline;
+}
+main strong{
+    font-size: 25px;
+    color: gray;
+    font-style:italic;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(255, 253, 123);
+
+}
+span.tech{
+    color: green;
+    font-style: italic;
+    font-weight: 700;
+}
+aside h2 {
+    font-size: 18px;
+    background-color: rgb(222, 222, 222);
+}
+aside h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: brown;
+    font-weight: 600;
+
+}
