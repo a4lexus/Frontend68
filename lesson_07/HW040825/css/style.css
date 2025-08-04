@@ -1,0 +1,60 @@
+*{
+    box-sizing:border-box;
+    
+}
+body{
+    background-color:rgb(179, 233, 254);
+    margin: 30px ;
+    padding-right: 250px;
+}
+.header{
+    font-family: 'Segoe Print', cursive;
+    margin: 50px;
+    margin-bottom: -35px;
+    color: brown;
+}
+.header2{
+    background-color: antiquewhite;
+    font-style:italic;
+    font-size: 20px;
+    margin: 30px;
+    margin-top:5px;
+    margin-bottom: 15px;
+    padding: 20px;
+    color: brown;
+} 
+.date{
+    text-align: center;
+    color: gray;
+    
+}
+div{
+    margin: 30px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    background-color:rgb(207, 235, 233);
+    padding: 5px;
+    padding-left: 30px;
+    font-style: italic;
+    font-size: large;
+    color: gray;
+    
+}
+h4{
+    color: rgba(14, 14, 143, 0.507); 
+}
+h5{
+    text-align:right;
+    color: rgba(128, 128, 128, 0.498);
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(230, 227, 76);
+
+}
+
+    
+    
+
