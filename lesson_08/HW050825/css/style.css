@@ -1,0 +1,48 @@
+header{
+    background-color: rgba(26, 234, 206, 0.785);
+    font-size: 30px;
+    height: 30px;
+    
+    position: fixed;
+    width: 1200px;
+    height: 50px;
+    z-index: 12;
+}
+main{
+    min-height: 200vh;
+} 
+ul{
+    list-style:circle;
+}
+.card{
+    height: 250px;
+    width: 250px;
+    
+
+    background-color: rgba(163, 235, 168, 0.715);
+    font-style: italic;
+    color: brown;
+    font-size: 20px;
+    padding: 26px;
+    margin: 22px;
+}
+.card a {
+    text-decoration:none;
+}
+.relative{
+    position: relative;
+    top: 56px;
+    left: 30px;
+}
+.user2 {
+    position: relative;
+    top: 2px;
+    left: 320px;
+    
+}
+.user3 {
+    position: relative;
+    top: 2px;
+    left: 640px;
+    
+}
