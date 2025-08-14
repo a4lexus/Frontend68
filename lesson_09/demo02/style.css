@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    flex-direction: row;
+                             /*justify-content: flex-end; /*  блок на конец контейнера*/
+justify-content: center;
+align-items:start;
+flex-wrap: wrap;
+align-content: center;
+gap: 10px; /*расстояние между блочками */
+
+
+    background-color: gainsboro;
+    width: 1000px;
+    height: 700px;
+    margin: auto;
+}
+.box{
+    background-color: aquamarine;
+    border: 1px red solid;
+    width: 250px;
+    height: 300px;
+    overflow: hidden;
+}
