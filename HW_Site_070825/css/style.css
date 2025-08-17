@@ -1,0 +1,167 @@
+.site-header {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 40px;
+    background-color: rgb(133, 204, 227);
+    box-sizing: border-box;
+
+}
+
+.header-column {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo {
+    width: 250px;
+    height: 75px;
+
+}
+
+.center-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.center-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.company-name {
+    color: aliceblue;
+    margin: 0;
+    font-size: 35px;
+
+}
+
+.nav-links {
+    display: flex;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.5s ease;
+    color: gray;
+
+}
+
+.link:hover {
+    color: yellow;
+}
+
+.description-section {
+    text-align: right;
+    max-width: 350px;
+    font-style: italic;
+
+}
+
+.company-description {
+    color: aliceblue;
+    font-size: 18px;
+    margin: 0;
+}
+
+main {
+    min-height: 100vh;
+}
+
+.site-footer {
+    background-color:rgb(133, 204, 227);
+
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.left {
+    flex: 0;
+
+}
+
+.center {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footer-section {
+    margin: 14px;
+    white-space: nowrap;
+    color: aliceblue;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: start;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 5px;
+    padding: 20px;
+
+    background-color: rgb(199, 233, 236);
+    width: 100%;
+    height: 1000px;
+
+}
+
+.foto {
+    width: 500px;
+
+}
+
+.text-description {
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.images {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+
+.fotos {
+    width: 450px;
+    border-radius: 5%;
+}
+
+.name {
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.kontakt {
+    text-transform: uppercase;
+    color: aliceblue;
+}
