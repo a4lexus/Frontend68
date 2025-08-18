@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>HomeWork</title>
+</head>
+
+<body class="container">
+    <h1>Форма обратной связи</h1>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Как с вами связаться</legend>
+            <label for="name">Ваше имя: <br></label>
+            <input type="text" placeholder="Ваше имя" name="username" id="name" required><br>
+            <label for="email">Email: <br></label>
+            <input type="email" placeholder="box@mail.com" name="email" id="email" required><br>
+            <label for="tel">Телефон: <br></label>
+            <input type="tel" placeholder="+49 222 333 444" name="tel" id="tel"><br>
+            <fieldset>
+                <legend>Данные контракта</legend>
+                <label for="date">Дата: <br></label>
+                <input type="date" name="date" id="date" required><br>
+                <label for="number">Номер: <br></label>
+                <input type="text" placeholder="M/555/525-D" name="number" id="number" required> <br>
+            </fieldset>
+        </fieldset>
+        Оцените наш сервис: <br>
+        <ul>
+            <li><input type="radio" name="assessment" value="Хорошо">Хорошо</li>
+            <li><input type="radio" name="assessment" value="Удовлитворительно">Удовлитворительно</li>
+            <li><input type="radio" name="assessment" value="Плохо">Плохо</li>
+        </ul>
+        Как часто используете наш сервис: <br>
+        <ul>
+            <li><input type="radio" name="range" value="Первый раз">Первый раз</li>
+            <li><input type="radio" name="range" value="Иногда">Иногда</li>
+            <li><input type="radio" name="range" value="Часто">Часто</li>
+        </ul> <br>
+
+        <label for="message">Сообщение:</label><br>
+        <textarea id="message" name="message" rows="6" cols="51" maxlength="200" wrap="soft" placeholder="Напишите ваше сообщение...">
+        </textarea> <br><br>
+        <fieldset>
+            <ul>
+                <li><input type="checkbox" name="consent"> Даю согласие</li>
+            </ul>
+        </fieldset> <br><br>
+
+        <button type="submit">отправить</button>
+    </form>
+</body>
+
+</html>
