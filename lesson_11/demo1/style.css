@@ -1,0 +1,25 @@
+input[type="text"] {
+    width: 300px;
+    padding: 15px 15px;
+    border: 2px solid rgb(163, 99, 227);
+    border-radius: 10%;
+    color: green;
+    margin: 10px;
+    font-size: 16px;
+
+}
+input[type="text"]::placeholder{
+    color: rgb(155, 176, 169);
+    font-style: italic;
+}
+
+input[type="text"]:focus{
+        border-color: #4caf50;
+        box-shadow: 0 2px 5px rgba(4, 253, 195, 0.5);
+
+}
+
+.btn:hover{
+    background-color: aqua;
+    color: rgb(214, 147, 147);
+}
