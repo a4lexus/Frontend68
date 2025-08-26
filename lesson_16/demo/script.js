@@ -39,9 +39,9 @@ console.log(res);
 arr = "hello java script". split(" "); // получаем массив из слов с пробелами
 console.log(arr);
 
-arr = arr.map(el => el.split("")); // получаем массив из слов букв
+arr = arr.map(el => el.split("")); // получаем массив из букв слов
 console.log(arr);                   //
 
 arr = arr.flat(1);                  //
-console.log(arr);                   //flatMap
+console.log(arr);                   //flatMap()
 
