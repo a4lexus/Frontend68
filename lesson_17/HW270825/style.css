@@ -1,0 +1,30 @@
+#root{
+    position: relative;
+    width: 610px;
+    height: 500px;
+    background-color:rgb(209, 244, 244);
+    border: 1px solid blue;
+
+}
+#box{
+    position: absolute;
+    width:100px;
+    height: 100px;
+    background-color: rgb(220, 220, 144);
+    border: 2px solid red;
+    top: 30px;
+    left: 30px;
+    transition: top 0.9s ease, left 0.9s ease;
+
+
+}
+button{
+    position:relative;
+    width: 150px;
+    top: 20px;
+    background-color: rgb(219, 207, 207);
+    color: white;
+    font-size: 25px;
+    border: none;
+
+}
